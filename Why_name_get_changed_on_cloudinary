@@ -1,0 +1,7 @@
+When files are uploaded to Cloudinary, their names often get changed for several reasons:
+
+(i)Uniqueness: Cloudinary generates unique names to avoid conflicts. This prevents overwriting existing files that might have the same name.
+(ii)Optimization: Cloudinary may optimize file names for better handling and management within their system.
+(iii)Security: Changing file names can help obscure the original file names, enhancing security and privacy.
+(iv)Consistency: Automated naming conventions ensure consistency across all files, making it easier to manage and retrieve them.
+(v)URL Management: Simplified and standardized names are easier to use and manage within URLs, enhancing user experience and SEO.

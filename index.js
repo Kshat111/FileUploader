@@ -14,6 +14,7 @@ const fileupload = require("express-fileupload");
 app.use(fileupload({
     useTempFiles : true,
     tempFileDir : '/tmp/'
+    // had to add these two flags
 }));
 
 // connection with DB
@@ -35,4 +36,4 @@ app.listen(PORT, () => {
 
 app.get("/", (req,res) => {
     res.send(`<h1> This is Homepage</h1>`);
-})
+});
